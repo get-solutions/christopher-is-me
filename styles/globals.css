@@ -5,7 +5,7 @@
   --color-cyan-azure: #4A87AD;
   --color-arsenic: #3A3948;
   --color-shadow: #8F8564;
-  --color-pale-silver: #C8BFB3;
+  --color-pale-silver: #e8e8e8;
   --font-work-sans: 'Work Sans', sans-serif;
   --font-carrois-gothic: 'Carrois Gothic', sans-serif;
   --font-kanit: 'Kanit', sans-serif;
@@ -14,21 +14,26 @@
 
 body[data-theme="light"] {
   --color-text-primary: var(--color-arsenic);
+  --color-inverted: var(--color-pale-silver);
   --color-text-secondary: var(--color-cyan-azure);
   --color-bg: var(--color-pale-silver);
   --color-bg-secondary: var(--color-cadet-blue);
   --color-bg-toggle: var(--color-arsenic);
+  --color-bg-inverted: var(--color-arsenic);
 }
 
 body[data-theme="dark"] {
   --color-text-primary: var(--color-pale-silver);
+  --color-inverted: var(--color-arsenic);
   --color-text-secondary: var(--color-cadet-blue);
   --color-bg: var(--color-arsenic);
   --color-bg-secondary: var(--color-cadet-blue);
   --color-bg-toggle: var(--color-pale-silver);
+  --color-bg-inverted: var(--color-pale-silver);
 }
 
 body {
+  margin: 0;
   background: var(--color-bg);
   color: var(--color-text-primary);
   font-family: var(--font-kanit);
@@ -38,10 +43,6 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 h1 {

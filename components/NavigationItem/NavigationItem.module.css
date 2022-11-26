@@ -1,0 +1,21 @@
+.navItem {
+    font-family: var(--font-carrois-gothic);
+    font-weight: 700;
+    font-size: 36px;
+    align-self: center;
+}
+
+.active {
+    border-bottom: 3px solid var(--color-bg-inverted);
+    padding: 8px;
+}
+
+.inactive {
+    padding: 8px;
+    border-bottom: 3px solid var(--color-bg);
+}
+
+.inactive:hover {
+    border-bottom: 3px solid var(--color-bg-inverted);
+    transition: border 0.25s ease-in-out;
+}

@@ -19,7 +19,7 @@ const ThemeToggle = () => {
             onClick={() => setTheme(inactiveTheme)}
         >
             <span className={styles.toggle_thumb} />
-            <span aria-hidden={true}>🌙</span>
+            <span aria-hidden={true}>☪</span>
             <span aria-hidden={true}>☀️</span>
         </button>
     );
