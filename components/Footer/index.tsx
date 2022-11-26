@@ -74,11 +74,6 @@ const Footer = () => {
                                 Terms Of Use
                             </Link>
                         </li>
-                        <li>
-                            <Link href="/site-map">
-                                Site Map
-                            </Link>
-                        </li>
                     </ul>
                 </li>
             </ul>
