@@ -1,11 +1,11 @@
 import MainTemplate from "../templates/MainTemplate";
 
-const Home = () => {
+const Articles = () => {
   return (
     <MainTemplate>
-      <h1>Home</h1>
+      <h1>Articles</h1>
     </MainTemplate>
   );
 }
 
-export default Home;
+export default Articles;
