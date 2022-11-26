@@ -1,0 +1,25 @@
+.input {
+    width: 100%;
+    height: 32px;
+    border: none;
+    border-bottom: 3px solid var(--color-bg-inverted);
+}
+
+.textInput {
+    width: 100%;
+    height: 20vh;
+    border: 3px solid var(--color-bg-inverted);
+    border-radius: 8px;
+}
+
+.send {
+    display: block;
+    width: 90%;
+    margin: auto;
+    font-size: 32px;
+    font-family: var(--font-work-sans);
+    background: var(--color-bg-inverted);
+    color: var(--color-inverted);
+    padding: 8px;
+    border-radius: 8px;
+}
